@@ -76,3 +76,19 @@ Useful settings:
 https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 
 An example configuration is available at [`.vscode/mcp.json`](.vscode/mcp.json)
+
+## GitHub Copilot Instructions
+
+This repository includes a [`.github/copilot-instructions.md`](.github/copilot-instructions.md) file that provides custom instructions to GitHub Copilot. This file helps Copilot understand your project's specific conventions, coding standards, and best practices to provide more contextually relevant suggestions.
+
+The instructions file includes guidance on:
+
+- Project overview and technology stack
+- Code style and naming conventions
+- Testing standards and patterns
+- Documentation requirements
+- Git practices and commit message formatting
+- Security and performance considerations
+- Project-specific guidelines and domain logic
+
+GitHub Copilot automatically reads this file when providing suggestions in your repository, ensuring that generated code aligns with your team's standards. You can customize this template to match your project's specific needs.
