@@ -4,20 +4,33 @@
 
 A collection of notes and configuration for using [GitHub Copilot](https://github.com/features/copilot) :copilot:
 
-## Web
+## GitHub Copilot on the web
 
-### [Chat](https://github.com/copilot)
+There are several options available for using GitHub Copilot on the web:
 
-### [Agents](https://github.com/copilot/agents)
+### Chat
 
-### [Spaces](https://github.com/copilot/spaces)
+https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-github
 
-### [Spark](https://github.com/spark)
+### Agents
 
-### [MCP Registry](https://github.com/mcp)
+https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent
 
-## [CLI](https://github.com/github/copilot-cli) (Public Preview)
+### Spaces
 
+https://docs.github.com/en/copilot/concepts/context/spaces
+
+### Spark
+
+https://docs.github.com/en/copilot/concepts/spark
+
+### MCP Registry
+
+https://github.com/mcp
+
+## GitHub Copilot CLI
+
+https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli
 
 1. Authenticate with GitHub
 
@@ -31,12 +44,33 @@ A collection of notes and configuration for using [GitHub Copilot](https://githu
     GITHUB_TOKEN=$(gh auth token) copilot
     ```
 
-## [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview)
+## Visual Studio Code
 
-### [Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)
+https://code.visualstudio.com/docs/copilot/overview
 
-Launch GitHub Copilot Chat with Command + Shift + I
+### Chat
 
-### [MCP](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+https://code.visualstudio.com/docs/copilot/chat/copilot-chat
 
-[`.vscode/mcp.json`](.vscode/mcp.json)
+Useful settings:
+
+```json
+{
+  "chat.agent.enabled": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Use British English spelling."
+    },
+    {
+      "text": "Use conventional commit message format."
+    }
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true,
+}
+```
+
+### MCP
+
+https://code.visualstudio.com/docs/copilot/customization/mcp-servers
+
+An example configuration is available at [`.vscode/mcp.json`](.vscode/mcp.json)
