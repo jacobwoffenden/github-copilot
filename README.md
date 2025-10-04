@@ -44,6 +44,8 @@ https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli
     GITHUB_TOKEN=$(gh auth token) copilot
     ```
 
+![Screenshot of GitHub Copilot CLI interface showing the interactive terminal with command suggestions and completions](contrib/img/copilot-cli.png)
+
 ## Visual Studio Code
 
 https://code.visualstudio.com/docs/copilot/overview
