@@ -4,11 +4,25 @@
 
 A collection of notes and configuration for using [GitHub Copilot](https://github.com/features/copilot) :copilot:
 
+## Table of Contents
+
+- [GitHub Copilot on the web](#github-copilot-on-the-web)
+  - [Chat on GitHub.com](#chat-on-githubcom)
+  - [Agents](#agents)
+  - [Spaces](#spaces)
+  - [Spark](#spark)
+  - [MCP Registry](#mcp-registry)
+- [GitHub Copilot CLI](#github-copilot-cli)
+- [Visual Studio Code](#visual-studio-code)
+  - [Chat in Visual Studio Code](#chat-in-visual-studio-code)
+  - [MCP](#mcp)
+- [GitHub Copilot Instructions](#github-copilot-instructions)
+
 ## GitHub Copilot on the web
 
 There are several options available for using GitHub Copilot on the web:
 
-### Chat
+### Chat on GitHub.com
 
 https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-github
 
@@ -50,7 +64,7 @@ https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli
 
 https://code.visualstudio.com/docs/copilot/overview
 
-### Chat
+### Chat in Visual Studio Code
 
 https://code.visualstudio.com/docs/copilot/chat/copilot-chat
 
